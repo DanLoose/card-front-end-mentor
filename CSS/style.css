@@ -5,18 +5,19 @@
 
 body{
     background-color:  hsl(233, 47%, 7%);
+    font-size: 15px;
 }
 
-.container{
-    width: 80%;
-    margin:  auto;
-    background-color: hsl(244, 38%, 16%);
-    border-radius: 5px;
-}
-.container img{
-    width: 100%;
-    height: auto;
-}
+.colorImg{background-color:hsl(277, 64%, 61%) ;border-radius: 10%;}
+.colorImg img{opacity: 1;width: 100%; height: auto; background: cover;}
 
-.container p{color: hsla(0, 0%, 100%, 0.75);}
-.container h2{color:  hsl(0, 0%, 100%);}
+.container{width: 80%; margin: auto;background-color: hsl(244, 38%, 16%);border-radius: 5px; text-align: center; }
+.container ul{list-style-type: none;}
+
+.container2{padding: 20px;}
+.container2 p{ color: hsla(0, 0%, 100%, 0.75);}
+.container2 h2{color:  hsl(0, 0%, 100%);}
+.container2 > p{padding: 10px;}
+
+.container .stats p{margin: 0; padding: 0;}
+.container .stats h2{margin: 0; padding: 0;}
